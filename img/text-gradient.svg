@@ -1,0 +1,64 @@
+<svg id="svg351" xmlns="http://www.w3.org/2000/svg" height="148.38" width="107.74" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28.507001 39.257816">
+ <defs id="defs345">
+  <clipPath id="clipPath226-3" clipPathUnits="userSpaceOnUse">
+   <path id="path224-8" d="m0 0h841.89v595.28h-841.89z"/>
+  </clipPath>
+  <clipPath id="clipPath234-0" clipPathUnits="userSpaceOnUse"></clipPath>
+  <linearGradient id="linearGradient248-0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-16384 -16384 -16384 -16384 269.25 806.68)">
+   <stop id="stop238-9" stop-color="#00adef" offset="0"/>
+   <stop id="stop240-1" stop-color="#00adef" offset=".13187"/>
+   <stop id="stop242-9" stop-color="#0c8dd7" offset=".77637"/>
+   <stop id="stop244-6" stop-color="#0c8dd7" offset=".79292"/>
+   <stop id="stop246-2" stop-color="#0c8dd7" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath166" clipPathUnits="userSpaceOnUse">
+   <path id="path164" d="m0 0h841.89v595.28h-841.89z"/>
+  </clipPath>
+  <clipPath id="clipPath174" clipPathUnits="userSpaceOnUse"></clipPath>
+  <linearGradient id="linearGradient188" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-16384 -16384 -16384 -16384 267.87 206.02)">
+   <stop id="stop178" stop-color="#00adef" offset="0"/>
+   <stop id="stop180" stop-color="#00adef" offset=".13187"/>
+   <stop id="stop182-4" stop-color="#0c8dd7" offset=".77637"/>
+   <stop id="stop184-8" stop-color="#0c8dd7" offset=".79292"/>
+   <stop id="stop186-5" stop-color="#0c8dd7" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath166-3" clipPathUnits="userSpaceOnUse">
+   <path id="path164-6" d="m0 0h841.89v595.28h-841.89z"/>
+  </clipPath>
+  <clipPath id="clipPath174-0" clipPathUnits="userSpaceOnUse"></clipPath>
+  <linearGradient id="linearGradient2691" xlink:href="#linearGradient188" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-16384 -16384 -16384 -16384 267.87 206.02)"/>
+  <linearGradient id="linearGradient1295" y2="17.149" gradientUnits="userSpaceOnUse" x2="75.265" gradientTransform="matrix(7.2819 0 0 7.2819 -533.56 -85.739)" y1="11.774" x1="75.269">
+   <stop id="stop354-68" stop-color="#b0da19" offset="0"/>
+   <stop id="stop356-84" stop-color="#b0da19" offset=".027171"/>
+   <stop id="stop358-3" stop-color="#6dc72e" offset=".18681"/>
+   <stop id="stop360-1" stop-color="#40b93c" offset=".52197"/>
+   <stop id="stop362-4" stop-color="#1d6434" offset=".91209"/>
+   <stop id="stop364-9" stop-color="#1d6434" offset=".91860"/>
+   <stop id="stop366-2" stop-color="#1d6434" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g220-7" transform="matrix(.10323 0 0 -.099882 798.56 -59.085)">
+  <g id="g222" clip-path="url(#clipPath226-3)">
+   <g id="g228-3">
+    <g id="g230" clip-path="url(#clipPath234-0)">
+     <g id="g236-2"></g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g id="g162" clip-path="url(#clipPath166)" transform="matrix(.10323 0 0 -.10323 286.52 -57.933)">
+  <g id="g168-1">
+   <g id="g170" clip-path="url(#clipPath174)">
+    <g id="g176-0"></g>
+   </g>
+  </g>
+ </g>
+ <g id="g162-7" clip-path="url(#clipPath166-3)" transform="matrix(.35278 0 0 -.35278 656.62 45.612)">
+  <g id="g168">
+   <g id="g170-4" clip-path="url(#clipPath174-0)">
+    <g id="g176"></g>
+   </g>
+  </g>
+ </g>
+ <text id="text482" style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="69.36px" line-height="1.20000005" y="38.286774" x="-1.8033626" font-family="&apos;Helvetica Neue LT W1G&apos;" fill="url(#linearGradient1295)"><tspan id="tspan480" y="38.286774" x="-1.8033626" stroke-width="1.9267" fill="url(#linearGradient1295)">c</tspan></text>
+</svg>

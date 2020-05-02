@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Biotrap</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/Biotrap-logo.svg" />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <!-- Tipografía manual -->
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSRulePlugin.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Iconos menú SVG -->
+    <svg class="hidden">
+      <symbol id="icon-menu" viewBox="0 0 119 25">
+        <title>menu</title>
+        <path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z" />
+      </symbol>
+
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <title>close</title>
+        <path
+          d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <!-- Top Header nav menu -->
+      <div class="top-header">
+        <ul>
+          <li><i class="fas fa-phone-volume"></i><span>952 496 487</span></li>
+          <li><i class="fas fa-map-marker-alt"></i><span>C/ Velázquez 18, Velez-Málaga</span></li>
+          <li><span>@ comercial@biotrap.es</span></li>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+
+        <!-- Menú navegación -->
+        <div class="burguer">
+          <nav class="menu">
+            <div class="menu__item menu__item--1" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="mainmenu">
+                  <a href="home.html" class="mainmenu__item">Inicio</a>
+                  <a href="certificados.html" class="mainmenu__item">Certificados</a>
+                  <a href="empresa.html" class="mainmenu__item">La Empresa</a>
+                  <a href="contacto.html" class="mainmenu__item">Contacto</a>
+                </div>
+                <p class="label label--topleft label--vert-mirror">menú principal</p>
+                <p class="label label--bottomright label--vert">helados ecológicos y veganos</p>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--2" data-direction="lr">
+              <div class="menu__item-inner">
+                <div class="menu__item-map"></div>
+                <a href="#" class="menu__item-hoverlink">novedades</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--3" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="sidemenu">
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Instagram</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Pinterest</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Facebook</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">YouTube</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Twitter</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--4" data-direction="rl">
+              <div class="menu__item-inner">
+                <p class="label label--topleft label--line">Helados y sorbetes</p>
+                <a href="#" class="menu__item-link">Descubre <br />nuestros sabores</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--5" data-direction="tb">
+              <div class="menu__item-inner">
+                <p class="quote">Helados sin lactosa, sin gluten y veganos</p>
+              </div>
+            </div>
+
+            <button class="action action--menu">
+              <svg class="icon icon--menu">
+                <use xlink:href="#icon-menu"></use>
+              </svg>
+            </button>
+
+            <button class="action action--close">
+              <svg class="icon icon--close">
+                <use xlink:href="#icon-close"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Wrapper Header La Empresa -->
+    <div class="wrapper-contacto">
+      <div class="grid-contacto">
+        <!-- logo -->
+        <a href="home.html" class="logo"></a>
+        <!-- content-text -->
+        <div class="header-contacto-text">
+          <header>
+            <h1 class="anim1">Contacto</h1>
+            <h2 class="anim1">Nos encantaría saber de ti</h2>
+            <h3 class="anim1">
+              Háganos saber lo que le gusta, lo que no, cómo lo estamos haciendo y qué le gustaría ver más.
+            </h3>
+          </header>
+        </div>
+      </div>
+    </div>
+
+    <!-- Formulario de contacto Biotrap -->
+    <div class="form-contact">
+      <header>
+        <h3>
+          Nos encantaría escuchar sus comentarios; sin embargo, comprenda que no podemos aceptar sugerencias de nuevos productos, publicidad, promociones, etc., de ninguna persona ajena a nuestra empresa. Esto es necesario para evitar malentendidos sobre el origen de las ideas.
+        </h3>
+      </header>
+      <form action="#" class="contact-page">
+        <div class="name">
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" />
+        </div>
+
+        <div class="phone">
+          <label for="fphone">Teléfono</label>
+          <input type="tel" id="fphone" />
+        </div>
+
+        <div class="email">
+          <label for="femail">Email</label>
+          <input type="email" id="femail" />
+        </div>
+
+        <div class="asunto">
+          <label for="fasunto">Asunto</label>
+          <input type="text" id="fasunto" />
+        </div>
+
+        <div class="mensaje">
+          <label for="fmensaje">Mensaje</label>
+          <textarea id="fmensaje" rows="3"></textarea>
+        </div>
+
+        <div class="enviar">
+          <button class="button-info"><input type="submit" value="Enviar" /></button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Mapa de Biotrap en Google Maps -->
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.475462446011!2d-4.127783684709935!3d36.80712497994719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd724130ac7ab779%3A0xce8cbb53f54302d7!2sBiotrap!5e0!3m2!1ses!2ses!4v1588355618927!5m2!1ses!2ses"
+      width="800"
+      height="600"
+      frameborder="0"
+      style="border: 0;"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    ></iframe>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper-footer">
+        <div class="footer-grid">
+          <!-- logotipo tipo texto -->
+          <div class="item-footer logo-footer text-logo"></div>
+          <!-- datos de contacto -->
+          <div class="item-footer contact">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Contacto</span></h1>
+                </header>
+              </li>
+              <li>C/ Velázquez, 18</li>
+              <li>952 496 487</li>
+              <li>678 131 882</li>
+              <li>29500 Velez-Málaga (Málaga)</li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <!-- Páginas o links -->
+          <div class="item-footer links">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Links</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Aviso legal</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+          </div>
+          <!-- redes sociales -->
+          <div class="item-footer network">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Redes Sociales</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- empresa creadora de la web -->
+      <div class="footer-bottom">
+        <header>
+          <h4>Diseño y desarrollo <a href="#">mbSocialWeb</a></h4>
+        </header>
+      </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/animations-biotrap.js"></script>
+  </body>
+</html>

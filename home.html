@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biotrap helados ecológicos</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/Biotrap-logo.svg" />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSRulePlugin.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Iconos menú SVG -->
+    <svg class="hidden">
+      <symbol id="icon-menu" viewBox="0 0 119 25">
+        <title>menu</title>
+        <path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z" />
+      </symbol>
+
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <title>close</title>
+        <path
+          d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <!-- Top Header nav menu -->
+      <div class="top-header">
+        <ul>
+          <li><i class="fas fa-phone-volume"></i><span>952 496 487</span></li>
+          <li><i class="fas fa-map-marker-alt"></i><span>C/ Velázquez 18, Velez-Málaga</span></li>
+          <li><span>@ comercial@biotrap.es</span></li>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+
+        <!-- Menú navegación -->
+        <div class="burguer">
+          <nav class="menu">
+            <div class="menu__item menu__item--1" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="mainmenu">
+                  <a href="home.html" class="mainmenu__item">Inicio</a>
+                  <a href="certificados.html" class="mainmenu__item">Certificados</a>
+                  <a href="empresa.html" class="mainmenu__item">La Empresa</a>
+                  <a href="contacto.html" class="mainmenu__item">Contacto</a>
+                </div>
+                <p class="label label--topleft label--vert-mirror">menú principal</p>
+                <p class="label label--bottomright label--vert">helados ecológicos y veganos</p>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--2" data-direction="lr">
+              <div class="menu__item-inner">
+                <div class="menu__item-map"></div>
+                <a href="#" class="menu__item-hoverlink">novedades</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--3" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="sidemenu">
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Instagram</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Pinterest</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Facebook</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">YouTube</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Twitter</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--4" data-direction="rl">
+              <div class="menu__item-inner">
+                <p class="label label--topleft label--line">Helados y sorbetes</p>
+                <a href="#" class="menu__item-link">Descubre <br />nuestros sabores</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--5" data-direction="tb">
+              <div class="menu__item-inner">
+                <p class="quote">Helados sin lactosa, sin gluten y veganos</p>
+              </div>
+            </div>
+
+            <button class="action action--menu">
+              <svg class="icon icon--menu">
+                <use xlink:href="#icon-menu"></use>
+              </svg>
+            </button>
+
+            <button class="action action--close">
+              <svg class="icon icon--close">
+                <use xlink:href="#icon-close"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Medium Header -->
+    <div class="medium-header">
+      <!-- Logo -->
+      <a href="home.html" class="medium-header-logo anim1"></a>
+
+      <!-- Titulo o slogan -->
+      <div class="medium-header-title">
+        <header>
+          <h1 class="anim1"><span class="green-gradient-text">El mejor helado</span></h1>
+        </header>
+      </div>
+
+      <!-- Contenido -->
+      <header class="medium-header-content">
+        <div>
+          <h2 class="anim1">Helado ecológico y vegano</h2>
+          <p class="anim1">
+            Los helados BioTrap se elaboran sin lactosa, huevo, azúcares añadidos, conservantes, colorantes, espesantes
+            ni maltodrextinas, siendo todos los ingredientes de origen vegetal, al igual que la leche de avena que se
+            emplea como base para su producción.
+          </p>
+          <a href="certificados.html"><button class="button-info anim1">Más información</button></a>
+        </div>
+      </header>
+
+      <!-- Imagen helado -->
+      <div class="medium-header-image anim1"></div>
+
+      <!-- Certificados -->
+      <div class="medium-header-certificates">
+        <div class="lactosa-free anim1"></div>
+        <div class="gluten-free anim1"></div>
+        <div class="vegano anim1"></div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Presentación -->
+      <section class="wrapper-presentation">
+        <!-- Top -->
+        <div class="top-presentation">
+          <div class="text-logo"></div>
+          <div class="bio-quote">
+            <p>
+              <q>Nuestros helados nacen de nuestros propios productos 100% sólo pulpa de fruta sin azúcares añadidos</q>
+            </p>
+          </div>
+        </div>
+
+        <!-- Medium -->
+        <div class="medium-presentation">
+          <!-- Header-contacto -->
+          <div class="title-contact-medium-presentation">
+            <header><h2 class="green-gradient-text biotrap-font">Contacto</h2></header>
+          </div>
+
+          <!-- Contenido -->
+          <div class="medium-presentation-content">
+            <p>
+              Biotrap es una empresa ubicada en Velez-Málaga (Málaga) especializada en la elaboración de helado
+              artesanal y sorbetes ecológicos, veganos, sin lactosa y sin gluten, todos ellos con sus certificados de
+              calidad.
+            </p>
+            <p>
+              Distribuimos exclusivamente a canales de venta de restauración, heladerías, hoteles, catering, etc.. Para
+              más información contacte con nosotros a través del teléfono que aparece en la web o rellenando el
+              siguiente formulario, le atenderemos gustosamente.
+            </p>
+          </div>
+
+          <!-- Formulario -->
+          <div class="form-contact-medium-presentation">
+            <form action="#" class="contact-presentation">
+              <div class="name">
+                <label for="fname">Nombre</label>
+                <input type="text" id="fname" />
+              </div>
+
+              <div class="phone">
+                <label for="fphone">Teléfono</label>
+                <input type="tel" id="fphone" />
+              </div>
+
+              <div class="email">
+                <label for="femail">Email</label>
+                <input type="email" id="femail" />
+              </div>
+
+              <div class="asunto">
+                <label for="fasunto">Asunto</label>
+                <input type="text" id="fasunto" />
+              </div>
+
+              <div class="mensaje">
+                <label for="fmensaje">Mensaje</label>
+                <textarea id="fmensaje" rows="3"></textarea>
+              </div>
+
+              <div class="enviar">
+                <button class="button-info"><input type="submit" value="Enviar" /></button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Imágenes -->
+          <div class="bg-image">
+            <!-- Mango -->
+            <div class="mango animate"></div>
+            <!-- Menta -->
+            <!--<div class="mint"></div>-->
+            <!-- Mora -->
+            <div class="grape animate"></div>
+            <!-- Gotas -->
+            <!--<div class="drop"></div>-->
+          </div>
+        </div>
+      </section>
+
+      <!-- Parallax -->
+      <div id="parallax1" class="parallaxParent">
+        <div class="parallax-image"></div>
+      </div>
+
+      <!--Beneficios-->
+      <section>
+        <div class="wrapper-benefits">
+          <article class="benefits">
+            <header class="benefits-title">
+              <h2 class="biotrap-font"><span class="green-gradient-text">beneficios del helado ecológico</span></h2>
+            </header>
+            <div class="benefits-list">
+              <ul>
+                <li><p>Ingredientes biológicos certificados.</p></li>
+                <li><p>Materias primas naturales.</p></li>
+                <li><p>Sin conservantes, aromatizantes ni colorantes artificiales.</p></li>
+                <li><p>Sabores más auténticos.</p></li>
+                <li><p>Sin ingredientes de origen animal.</p></li>
+                <li><p>Realizados artesanalmente.</p></li>
+                <li><p>Perfecto para los niños.</p></li>
+                <li><p>Podemos consumirlos durante todo el año.</p></li>
+              </ul>
+            </div>
+            <div class="benefits-image"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Galería de helados y sorbetes -->
+      <section class="wrapper-ice-cream">
+        <!-- Titular de sabores -->
+        <div class="headline">
+          <header>
+            <h1 class="biotrap-font"><span class="green-gradient-text">Biotrap sabores</span></h1>
+          </header>
+        </div>
+
+        <!-- Grid helados y sorbetes -->
+        <div class="ice-cream-gallery">
+          <div class="item-ice-cream-gallery"><img src="img/sabor07.jpg" alt="Biotrap helado" /></div>
+          <div class="item-ice-cream-gallery">
+            <img src="img/sabor05.jpg" alt="Biotrap helado" />
+            <div class="flavor-name">
+              <header><h3>vainilla</h3></header>
+            </div>
+          </div>
+          <div class="item-ice-cream-gallery">
+            <img src="img/sorbete01.jpg" alt="Biotrap sorbete" />
+            <div class="flavor-name">
+              <header><h3>sorbetes</h3></header>
+            </div>
+          </div>
+          <div class="item-ice-cream-gallery"><img src="img/tarrina02.jpg" alt="Biotrap helado" /></div>
+          <div class="item-ice-cream-gallery">
+            <img src="img/header04-image.jpg" alt="Biotrap helado" />
+            <div class="flavor-name">
+              <header><h3>chocolate</h3></header>
+            </div>
+          </div>
+          <div class="item-ice-cream-gallery">
+            <img src="img/sorbete-frambuesa.jpg" alt="Biotrap sorbete" />
+            <div class="flavor-name">
+              <header><h3>sorbete</h3></header>
+            </div>
+          </div>
+          <div class="item-ice-cream-gallery">
+            <img src="img/sorbete02.jpg" alt="Biotrap sorbete" />
+            <div class="flavor-name">
+              <header><h3>mango</h3></header>
+            </div>
+          </div>
+          <div class="item-ice-cream-gallery"><img src="img/sabor06.jpg" alt="Biotrap helado" /></div>
+          <div class="item-ice-cream-gallery"><img src="img/sabor01.jpeg" alt="Biotrap helado" /></div>
+        </div>
+      </section>
+
+      <!-- Reseñas de clientes -->
+      <section class="wrapper-reviews">
+        <!-- Titular de reseñas clientes -->
+        <div class="headline">
+          <header>
+            <h1 class="biotrap-font"><span class="green-gradient-text">lo que opinan los clientes</span></h1>
+            <div class="subtitle"><h3>No lo decímos nosotros, lo dicen ellos.</h3></div>
+          </header>
+        </div>
+
+        <!-- Opiniones -->
+        <div class="reviews-grid">
+          <!-- opinion 1 -->
+          <div class="item-review">
+            <div class="avatar">
+              <div class="avatar-img"></div>
+              <p>Juan Nadie</p>
+            </div>
+            <div class="content-customer">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, blanditiis!Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Sint, blanditiis!
+              </p>
+            </div>
+          </div>
+          <!-- opinion 2 -->
+          <div class="item-review">
+            <div class="avatar">
+              <div class="avatar-img"></div>
+              <p>Juan Nadie</p>
+            </div>
+            <div class="content-customer">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, blanditiis!Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Sint, blanditiis!
+              </p>
+            </div>
+          </div>
+          <!-- opinion 3 -->
+          <div class="item-review">
+            <div class="avatar">
+              <div class="avatar-img"></div>
+              <p>Juan Nadie</p>
+            </div>
+            <div class="content-customer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, blanditiis!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Garantías y Certificados -->
+      <section class="wrapper-certificates">
+        <!-- Titular de Biotrap garantías -->
+        <div class="headline">
+          <header>
+            <h1 class="biotrap-font"><span class="green-gradient-text">garantías y certificados</span></h1>
+          </header>
+        </div>
+
+        <!-- Contenido garantías -->
+        <div class="guarantee">
+          <div class="item-guarantee"><img src="img/gluten-free-bb.svg" alt="Biotrap sin gluten" /></div>
+          <div class="item-guarantee"><img src="img/lactose-free-b.svg" alt="Biotrap sin lactosa" /></div>
+          <div class="item-guarantee"><img src="img/vegano.svg" alt="Biotrap vegano" /></div>
+          <div class="item-guarantee"><img src="img/caae.jpg" alt="Biotrap caae" /></div>
+          <div class="item-guarantee"><img src="img/diputacion-malaga.png" alt="Biotrap Málaga" /></div>
+          <div class="item-guarantee"><img src="img/ifs.svg" alt="Biotrap ifs" /></div>
+        </div>
+
+        <!-- Botón más información -->
+        <div class="garantee-info">
+          <a href="certificados.html"><button class="button-info">Más información</button></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper-footer">
+        <div class="footer-grid">
+          <!-- logotipo tipo texto -->
+          <div class="item-footer logo-footer text-logo"></div>
+          <!-- datos de contacto -->
+          <div class="item-footer contact">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Contacto</span></h1>
+                </header>
+              </li>
+              <li>C/ Velázquez, 18</li>
+              <li>952 496 487</li>
+              <li>678 131 882</li>
+              <li>29500 Velez-Málaga (Málaga)</li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <!-- Páginas o links -->
+          <div class="item-footer links">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Links</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Aviso legal</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+          </div>
+          <!-- redes sociales -->
+          <div class="item-footer network">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Redes Sociales</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- empresa creadora de la web -->
+      <div class="footer-bottom">
+        <header>
+          <h4>Diseño y desarrollo <a href="#">mbSocialWeb</a></h4>
+        </header>
+      </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/animations-biotrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificados | Biotrap</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/Biotrap-logo.svg" />
+
+    <!-- Iconos -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <!-- Tipografía manual -->
+		<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/certificados.css" />
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/CSSRulePlugin.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Iconos menú SVG -->
+    <svg class="hidden">
+      <symbol id="icon-menu" viewBox="0 0 119 25">
+        <title>menu</title>
+        <path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z" />
+      </symbol>
+
+      <symbol id="icon-close" viewBox="0 0 24 24">
+        <title>close</title>
+        <path
+          d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"
+        />
+      </symbol>
+    </svg>
+
+    <header>
+      <!-- Top Header nav menu -->
+      <div class="top-header">
+        <ul>
+          <li><i class="fas fa-phone-volume"></i><span>952 496 487</span></li>
+          <li><i class="fas fa-map-marker-alt"></i><span>C/ Velázquez 18, Velez-Málaga</span></li>
+          <li><span>@ comercial@biotrap.es</span></li>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+
+        <!-- Menú navegación -->
+        <div class="burguer">
+          <nav class="menu">
+            <div class="menu__item menu__item--1" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="mainmenu">
+                  <a href="home.html" class="mainmenu__item">Inicio</a>
+                  <a href="certificados.html" class="mainmenu__item">Certificados</a>
+                  <a href="empresa.html" class="mainmenu__item">La Empresa</a>
+                  <a href="contacto.html" class="mainmenu__item">Contacto</a>
+                </div>
+                <p class="label label--topleft label--vert-mirror">menú principal</p>
+                <p class="label label--bottomright label--vert">helados ecológicos y veganos</p>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--2" data-direction="lr">
+              <div class="menu__item-inner">
+                <div class="menu__item-map"></div>
+                <a href="#" class="menu__item-hoverlink">novedades</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--3" data-direction="bt">
+              <div class="menu__item-inner">
+                <div class="sidemenu">
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Instagram</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Pinterest</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Facebook</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">YouTube</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Twitter</span></a>
+                  <a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--4" data-direction="rl">
+              <div class="menu__item-inner">
+                <p class="label label--topleft label--line">Helados y sorbetes</p>
+                <a href="#" class="menu__item-link">Descubre <br />nuestros sabores</a>
+              </div>
+            </div>
+
+            <div class="menu__item menu__item--5" data-direction="tb">
+              <div class="menu__item-inner">
+                <p class="quote">Helados sin lactosa, sin gluten y veganos</p>
+              </div>
+            </div>
+
+            <button class="action action--menu">
+              <svg class="icon icon--menu">
+                <use xlink:href="#icon-menu"></use>
+              </svg>
+            </button>
+
+            <button class="action action--close">
+              <svg class="icon icon--close">
+                <use xlink:href="#icon-close"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Wrapper Header Certificates -->
+    <div class="wrapper-certificados">
+      <div class="grid-certificados">
+        <!-- logo -->
+        <a href="home.html" class="logo"></a>
+        <!-- content-text -->
+        <div class="header-certificates-text">
+          <header>
+            <h1 class="anim1"><span class="green-gradient-text">Garantias y certificados</span></h1>
+            <h2 class="anim1">El mejor helado</h2>
+            <h3 class="anim1">Con el mejor sabor</h3>
+          </header>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certificados significado -->
+    <section class="meaning-certificates">
+      <div class="certificates-boxes">
+        <div class="box-one">
+          <div class="certificate-logo">
+            <img src="img/caae.jpg" alt="Biotrap certificado CAAE" />
+          </div>
+          <div class="certificate-content">
+            <p>
+              <strong>Producto ecológico certificado por CAAE:</strong> El Comité Andaluz de Agricultura Ecológica,
+              CAAE, es una institución sin ánimo de lucro, lo que implica la aplicación de la totalidad de sus rentas
+              (cualquiera que sea su procedencia) al cumplimiento de sus fines en un ámbito de actuación multisectorial.
+              Su misión principal es el desarrollo de la Producción Ecológica certificada, asegurando la calidad de
+              productos amparados bajo la Marca CAAE y contribuyendo a la mejora de la competitividad de las empresas
+              certificadas, mediante la innovación y el desarrollo tecnológico. También cuenta entre sus fines con la
+              protección del Medio Ambiente y el Desarrollo Rural.
+            </p>
+          </div>
+        </div>
+        <div class="box-two">
+          <div class="certificate-logo">
+            <img src="img/gluten-free.svg" alt="Biotrap certificado libre de gluten" />
+            <img src="img/lactose-free.svg" alt="Biotrap certificado sin lactosa" />
+          </div>
+          <div class="certificate-content">
+            <p>
+              <strong>Producto SIN GLUTEN Y SIN LACTOSA:</strong> Avalado por analíticas de control en Laboratorios
+              acreditados en la norma UNE 17025.
+            </p>
+          </div>
+        </div>
+        <div class="box-three">
+          <div class="certificate-logo">
+            <img src="img/ifs.svg" alt="Biotrap certificado protocolo IFS Food" />
+          </div>
+          <div class="certificate-content">
+            <p>
+              <strong>Producto certificado por IFS FOOD:</strong> BIOTRAP es consciente de que los mercados, tanto
+              nacionales como internacionales, son cada vez más estrictos, y que las regulaciones sanitarias exigen a
+              los productores y exportadores mayores niveles de calidad higiénico sanitaria de las instalaciones,
+              procesos y productos. Por todo ello la empresa se ha certificado en un Sistema de Gestión de Calidad y
+              Seguridad Alimentaria basado en el protocolo IFS FOOD.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="certificates-boxes">
+        <p>
+          Todas estas certificaciones, unidas al altísimo nivel de calidad y excelencia ofrecido en sus productos,
+          además de la continua evaluación de las necesidades y expectativas de los clientes, así como la gran cantidad
+          de intolerancias alimentarias presentes en la sociedad actual, le ha permitido a
+          <strong class="green-gradient-text">BIOTRAP</strong> la apertura a grandes mercados.
+        </p>
+        <div class="box-four">
+          <div class="images--box-four">
+            <div class="image-four-1">
+              <img src="img/diputacion-malaga.png" alt="certificado diputación de Málaga" />
+            </div>
+            <div class="image-four-2">
+              <img src="img/vegano.svg" alt="certificado diputación de Málaga" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wrapper-footer">
+        <div class="footer-grid">
+          <!-- logotipo tipo texto -->
+          <div class="item-footer logo-footer text-logo"></div>
+          <!-- datos de contacto -->
+          <div class="item-footer contact">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Contacto</span></h1>
+                </header>
+              </li>
+              <li>C/ Velázquez, 18</li>
+              <li>952 496 487</li>
+              <li>678 131 882</li>
+              <li>29500 Velez-Málaga (Málaga)</li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <!-- Páginas o links -->
+          <div class="item-footer links">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Links</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Aviso legal</a></li>
+              <li><a href="#">Política de Cookies</a></li>
+              <li><a href="#">Política de Privacidad</a></li>
+            </ul>
+          </div>
+          <!-- redes sociales -->
+          <div class="item-footer network">
+            <ul>
+              <li>
+                <header>
+                  <h1 class="biotrap-font"><span class="green-gradient-text">Redes Sociales</span></h1>
+                </header>
+              </li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- empresa creadora de la web -->
+      <div class="footer-bottom">
+        <header>
+          <h4>Diseño y desarrollo <a href="#">mbSocialWeb</a></h4>
+        </header>
+      </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/animations-biotrap.js"></script>
+  </body>
+</html>

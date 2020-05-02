@@ -1,0 +1,182 @@
+.wrapper-empresa {
+  background-image: url(../img/la-empresa-biotrap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  height: 66vmax;
+}
+
+.grid-empresa {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 90%;
+}
+
+.logo {
+  background-image: url(../img/Biotrap-logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+  justify-self: flex-start;
+  height: 80px;
+  width: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.header-empresa-text {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+.header-empresa-text h1 {
+  margin-bottom: 20px;
+  font-family: "Biotrap", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.header-empresa-text h2 {
+  color: var(--color-link);
+  font-family: "Biotrap", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.header-empresa-text h3 {
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.6em;
+}
+
+.header-empresa-text > header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Contenido de la Empresa */
+.wrapper-contenido-empresa {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 1fr;
+}
+
+.contenido-empresa {
+  margin: 70px auto 0;
+  /* width:  70%; */
+  grid-column: 3 / span 8;
+  grid-row: 1;
+  position: relative;
+}
+
+.contenido-empresa > p:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.contenido-empresa strong {
+  color: var(--color-link);
+}
+
+.contenido-empresa-image-one {
+  background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.75), #010101), url(../img/bg_homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-column: 1 / span 9;
+  grid-row: 1 / 2;
+  height: 79%;
+  align-self: center;
+}
+
+.contenido-empresa-image-two {
+  background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.68), #01010100), url(../img/sorbete01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  grid-column: 8 / -1;
+  grid-row: 1 / 2;
+  height: 50%;
+  align-self: flex-end;
+  transform: rotateY(-150deg);
+}
+
+/* Equipo y Entorno Biotrap */
+.biotrap-team {
+  background-image: url(../img/equipo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vmax;
+  position: relative;
+  margin: 14% 0 8%;
+}
+
+.biotrap-enviroment {
+  background-image: url(../img/entorno.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vmax;
+  position: relative;
+  margin: 14% 0 8%;
+}
+
+.title-team,
+.title-enviroment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-team > header > h1,
+.title-enviroment > header > h1 {
+  font-family: "Biotrap", sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.team-text,
+.enviroment-text {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.team-text > p:not(:last-child),
+.enviroment-text > p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/********* Media queries EMPRESA ********/
+@media only screen and (min-width: 567px) {
+  .wrapper-empresa {
+    height: 55vmax;
+  }
+}
+
+@media only screen and (min-width: 716px) {
+  .header-empresa-text h1,
+  .title-team > header > h1,
+  .title-enviroment > header > h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .wrapper-empresa {
+    height: 46vmax;
+  }
+}
+
+@media only screen and (min-width: 1085px) {
+  .header-empresa-text h1,
+  .title-team > header > h1,
+  .title-enviroment > header > h1 {
+    font-size: 4.5rem;
+  }
+}
