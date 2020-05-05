@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
-  height: 66vmax;
+  height: 100vh;
 }
 
 .grid-empresa {
@@ -67,8 +67,8 @@
 
 .contenido-empresa {
   margin: 70px auto 0;
-  /* width:  70%; */
-  grid-column: 3 / span 8;
+  /*width:  90%;*/
+  grid-column: 2 / span 10;
   grid-row: 1;
   position: relative;
 }
@@ -88,7 +88,8 @@
   background-position: center;
   grid-column: 1 / span 9;
   grid-row: 1 / 2;
-  height: 79%;
+  /*height: 79%;*/
+  height: 0;
   align-self: center;
 }
 
@@ -99,7 +100,8 @@
   background-position: center;
   grid-column: 8 / -1;
   grid-row: 1 / 2;
-  height: 50%;
+  /*height: 50%;*/
+  height: 0;
   align-self: flex-end;
   transform: rotateY(-150deg);
 }
@@ -153,9 +155,17 @@
 }
 
 /********* Media queries EMPRESA ********/
-@media only screen and (min-width: 567px) {
+@media only screen and (min-width: 466px) {
+  .wrapper-empresa {
+    height: 66vmax;
+  }
+}
+@media only screen and (min-width: 628px) {
   .wrapper-empresa {
     height: 55vmax;
+  }
+  .contenido-empresa {
+    margin: 110px auto 0;
   }
 }
 
@@ -164,6 +174,15 @@
   .title-team > header > h1,
   .title-enviroment > header > h1 {
     font-size: 3.5rem;
+  }
+}
+
+@media only screen and (min-width: 898px) {
+  .contenido-empresa-image-one {
+    height: 79%;
+  }
+  .contenido-empresa-image-two {
+    height: 50%;
   }
 }
 
