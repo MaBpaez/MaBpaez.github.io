@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
-  height: 75vmax;
+  height: 100vh;
 }
 
 .grid-contacto {
@@ -93,6 +93,12 @@
 }
 
 /********* Media queries CONTACTO ********/
+@media only screen and (max-width: 298px) {
+  .wrapper-contacto {
+    height: 118vh;
+  }
+}
+
 @media only screen and (max-width: 716px) {
   .contact-page {
     margin: 12% auto 0;
@@ -107,7 +113,7 @@
 
 @media only screen and (min-width: 567px) {
   .wrapper-contacto {
-    height: 55vmax;
+    height: 73vmax;
   }
 }
 
@@ -135,6 +141,12 @@
   }
   .enviar {
     grid-row: 4;
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .wrapper-contacto {
+    height: 55vmax;
   }
 }
 
